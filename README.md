@@ -8,3 +8,5 @@ A collection of R scripts generating data, and TDA persistence barcodes analyzin
 - barcode_images/bell_bubble.png : barcode image of bell_bubble.R
 - cyl_bubble.R : generates points in 3D sampled from a circle crossed with a line, i.e. a cylinder
 - barcode_images/cyl_bubble.png: barcode image of cyl_bubble.R
+- cone_bubble.R : circle crossed with a V to make a cone
+- barcode_images/cone_bubble.png : barcode image of cone_bubble.R
