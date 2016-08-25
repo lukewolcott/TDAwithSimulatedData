@@ -6,3 +6,5 @@ A collection of R scripts generating data, and TDA persistence barcodes analyzin
 
 - bell_bubble.R : script that generates points in 3D sampled from a circle crossed with a bell curve, and plots its barcode.  Also includes code to generate 2D plot colored by third dimension.
 - barcode_images/bell_bubble.png : barcode image of bell_bubble.R
+- cyl_bubble.R : generates points in 3D sampled from a circle crossed with a line, i.e. a cylinder
+- barcode_images/cyl_bubble.png: barcode image of cyl_bubble.R
