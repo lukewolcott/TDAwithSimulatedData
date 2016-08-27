@@ -1,4 +1,4 @@
-# returns a 200x4 data frame, with columns id, X, Y, Z
+# returns a 200x3 data frame, with columns X, Y, Z
 # X and Y sample a circle, with amplitude depending on Z
 # X,Y,Z range between -50 and 50 by default
 # Plots the persistence barcode.

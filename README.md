@@ -10,3 +10,5 @@ A collection of R scripts generating data, and TDA persistence barcodes analyzin
 - barcode_images/cyl_bubble.png: barcode image of cyl_bubble.R
 - cone_bubble.R : circle crossed with a V to make a cone
 - barcode_images/cone_bubble.png : barcode image of cone_bubble.R
+- 4d_bell_bubble.R : circle cross bell curve cross bell curve
+- barcode_images/4d_bell_bubble.png : barcode image of 4d_bell_bubble.R

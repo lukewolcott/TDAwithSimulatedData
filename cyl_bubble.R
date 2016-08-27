@@ -21,9 +21,9 @@ cyl_bubble <- function(X_amp=50, Y_amp=50, Z_amp=50){
       maxdimension <- 2
       Diag <- ripsDiag(X = d, maxdimension, maxscale, library = "GUDHI", printProgress = TRUE)      
       plot(Diag[["diagram"]], barcode = TRUE)
-      mtext("Barcode of cylinder cross circle non-bubble")
+      mtext("Barcode of cylinder non-bubble")
       legend("right", lty=c(1,1,1), lwd=c(3,3,3), col=c("blue", "red", "black"), legend=c( "H2", "H1", "H0"))
-      
+
       d
       
 }
