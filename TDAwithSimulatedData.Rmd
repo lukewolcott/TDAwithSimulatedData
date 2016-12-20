@@ -6,6 +6,7 @@ output:
   html_document:
     keep_md: yes
   pdf_document: default
+always_allow_html: yes
 ---
 
 ### Abstract
@@ -67,6 +68,13 @@ library(ggplot2)
 qplot(X_value, Y_value, data=d, color=Z_value)
 ```
 
+We can plot this (and move it around!) in 3D using the plotly package.  (This only works if viewing in HTML, not PDF.)
+
+```{r, warning=FALSE, message=FALSE}
+library(plotly)
+plot_ly(x = d$X_value, y = d$Y_value, z=d$Z_value, type="scatter3d", mode="markers", color = d$Z_value)
+```
+
 ### The barcode
 
 But a better way to detect this bubble in 3D is to use topological data analysis.  We will plot the barcode and then explain what it tells us.
@@ -109,6 +117,14 @@ plot(d$X_value,d$Y_value,xlab="X_value",ylab="Y_value")
 plot(d$Z_value,d$Y_value,xlab="Z_value",ylab="Y_value")
 ```
 
+Again, we can plot this in 3D using the plotly package.
+
+```{r, warning=FALSE, message=FALSE}
+library(plotly)
+plot_ly(x = d$X_value, y = d$Y_value, z=d$Z_value, type="scatter3d", mode="markers", color = d$Z_value)
+```
+
+
 ### The barcode
 
 
@@ -145,6 +161,14 @@ par(mfrow=c(1,2))
 plot(d$X_value,d$Y_value,xlab="X_value",ylab="Y_value")
 plot(d$Z_value,d$Y_value,xlab="Z_value",ylab="Y_value")
 ```
+
+And the 3D plot.
+
+```{r, warning=FALSE, message=FALSE}
+library(plotly)
+plot_ly(x = d$X_value, y = d$Y_value, z=d$Z_value, type="scatter3d", mode="markers", color = d$Z_value)
+```
+
 
 ### The barcode
 
