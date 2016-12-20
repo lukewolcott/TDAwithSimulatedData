@@ -4,8 +4,9 @@ A collection of R scripts generating data, and TDA persistence barcodes. High-di
 
 #### Relevant Contents
 
-- TDAwithSimulatedData.md : Markdown summary report explaining the four scripts and their barcodes, and what they have to do with delayed oscillations. Start here.
-- TDAwithSimulatedData.html : HTML version of summary
+- TDAwithSimulatedData.html : HTML report explaining the four scripts and their barcodes, and what they have to do with delayed oscillations. START HERE.  To view, go to this link:
+https://lukewolcott.github.io/TDAwithSimulatedData/TDAwithSimulatedData.html
+- TDAwithSimulatedData.md : Markdown version of summary.
 - TDAwithSimulatedData.pdf : PDF version of summary
 
 - bell_bubble.R : script that generates points in 3D sampled from a circle crossed with a bell curve, and plots its barcode.  Also includes code to generate 2D plot colored by third dimension.
